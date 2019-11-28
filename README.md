@@ -1,5 +1,5 @@
 # hello-world
 Print Hello World in Laravel
 
-#Install
+# Install
 composer requrire d3turnes/hello-world @dev
