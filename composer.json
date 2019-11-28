@@ -1,0 +1,34 @@
+{
+    "name": "d3turnes/hello-world",
+    "description": "Print hello world",
+    "authors": [
+        {
+            "name": "David Turnes",
+            "email": "d3turnes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "tcg/voyager": "^1.1"
+    },
+	"require-dev": {
+		"phpunit/phpunit" : "~5.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"D3turnes\\HelloWorld\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"D3turnes\\HelloWorld\\Tests\\": "tests"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"D3turnes\\HelloWorld\\HelloWorldServiceProvider"
+			]
+		}
+	}
+}
